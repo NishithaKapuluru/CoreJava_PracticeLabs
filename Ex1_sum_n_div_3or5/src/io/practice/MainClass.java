@@ -12,7 +12,7 @@ public class MainClass {
 		CalSum cal=new CalSum();
 		int result=cal.calSum(n);
 		if(result==0){
-			System.out.println("Number you have entered is not divisible by 3 or 5");
+			System.out.println("Number you have entered is not divisible by 3 and 5");
 			System.out.println("So, can't find sum of that number");
 		}
 		else
